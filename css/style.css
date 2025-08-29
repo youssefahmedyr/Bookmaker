@@ -15,7 +15,7 @@ body {
 .container .title {
     font-family: "Lato", sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
 }
 .btn , .container-btn {
     background: rgba(255, 255, 255, 0.769);
