@@ -1,0 +1,95 @@
+:root { 
+    --main-color:#5F9EF4;
+}
+
+body {
+    background: linear-gradient(to right , #EFF1F4 , #B4C5D0);
+    color: #000;
+    font-family: "Inter", sans-serif;
+}
+.container .top-div {
+    background: #eef5fb70;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(22px);
+}
+.container .title {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.btn , .container-btn {
+    background: rgba(255, 255, 255, 0.769);
+    color: #000;
+    border-radius: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+.btn:hover , .container-btn:hover {
+    box-shadow: 0px 0px 1px 1px inset #00000020;
+}
+.btn.container-btn::before {
+    content: "\2b";
+    position: absolute;
+    font-size: 2.5rem;
+    bottom: 10%;
+    left: 6%;
+}
+.modal .modal-dialog .modal-content {
+    background: #eef5fb70;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+}
+.form-select {
+    border-radius: 12px;
+}
+.form-select .option {
+    border-radius: 12px;
+    background-color: red;
+}
+.form-control , .form-select {
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+    color: #333;
+}
+.form-control:focus, .form-select:focus {
+    background: rgba(255, 255, 255, 0.4);
+    outline: none;
+    box-shadow: none;
+}
+.container .bottom-div {
+    background: #eef5fb70;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(22px);
+}
+.container .bottom-div ul li {
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+    color: #333;
+    cursor: pointer;
+    list-style: none;
+}
+.container .bottom-div ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: rgba(255, 255, 255, 0.769);
+    color: #000;
+}
+.tab-content .tab-pane {
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+    color: #333;
+}
+.websites-info {
+    background-color: #fff;
+}
